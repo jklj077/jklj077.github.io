@@ -15,7 +15,7 @@ layout: default
 
 - **Sept. 2017 - Now.**  
   PhD candidate, majoring in Computer Software and Theory, Peking University.
-  - Advisor: [孙栩/Xu Sun](http://lanco.pku.edu.cn/xusun/index.htm)
+  - Advisor: [孙栩/Xu Sun](http://www.xusun.org)
 - **Sept. 2013 - Jul. 2017**  
   Bachelor of Science in Computer Science, Peking University.
 
