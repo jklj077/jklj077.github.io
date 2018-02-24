@@ -33,11 +33,19 @@ layout: default
   Xu Sun, **Xuancheng Ren**, Shuming Ma, Houfeng Wang  
   In ICML 2017 [[pdf]](https://arxiv.org/pdf/1706.06197.pdf) [[code]](https://github.com/jklj077/meProp)
 
+* Building an Ellipsis-aware Chinese Dependency Treebank for Web Text  
+  **Xuancheng Ren**, Xu Sun, Ji Wen, Bingzhen Wei, Weidong Zhan, Zhiyuan Zhang  
+  In LREC 2018 (to appear)
+
+* Word Embedding Attention Network: Generating Words by Querying Distributed Word Representations for Paraphrase Generation  
+  Shuming Ma, Xu Sun, Wei Li, Sujian Li, Wenjie Li, **Xuancheng Ren**  
+  In NAACL 2018 (to appear)
+
+# Technical Report
+
 * Minimal Effort Back Propagation for Convolutional Neural Networks  
   Bingzhen Wei, Xu Sun, **Xuancheng Ren**, Jingjing Xu  
   arXiv 2017:1709.05804 [[pdf]](https://arxiv.org/pdf/1709.05804)
-
-# Technical Report
 
 * 面向语言处理的大规模结构化学习理论和技术  
   马树铭, **任宣丞**, 孙栩  
