@@ -41,6 +41,11 @@ layout: default
   Shuming Ma, Xu Sun, Wei Li, Sujian Li, Wenjie Li, **Xuancheng Ren**  
   In NAACL 2018 (to appear)
 
+* Structure Regularized Neural Network for Entity Relation Classification for Chinese Literature Text  
+  Ji Wen, Xu Sun, **Xuancheng Ren**, Qi Su  
+  In NAACL 2018 (to appear, short paper)
+
+
 # Technical Report
 
 * Minimal Effort Back Propagation for Convolutional Neural Networks  
