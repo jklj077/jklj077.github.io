@@ -19,11 +19,6 @@ layout: default
 - **Sept. 2013 - Jul. 2017**  
   Bachelor of Science in Computer Science, Peking University.
 
-# Internship
-
-* **Sept. 2015 - Jul. 2017**  
-  MOE Key Laboratory of Computational Linguistics, Peking University.
-
 # Publication
 
 * meProp: Sparsified Back Propagation for Accelerated Deep Learning with Reduced Overfitting  
