@@ -14,7 +14,7 @@ layout: default
 # Education
 
 - **Sept. 2017 - Now.**  
-  PhD candidate, majoring in Computer Software and Theory, Peking University.
+  PhD candidate, majoring in Computer Software and Theory, Peking University.  
   - Advisor: [孙栩/Xu Sun](http://www.xusun.org)
 - **Sept. 2013 - Jul. 2017**  
   Bachelor of Science in Computer Science, Peking University.
@@ -23,9 +23,6 @@ layout: default
 
 * **Sept. 2015 - Jul. 2017**  
   MOE Key Laboratory of Computational Linguistics, Peking University.
-
-* **Sept. 2015 - Jul. 2017**  
-  [LANCO](http://lanco.pku.edu.cn), Institute of Computational Linguistics, School of Electronics Engineering and Computer Science, Peking University.
 
 # Publication
 
