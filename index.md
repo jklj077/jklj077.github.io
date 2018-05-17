@@ -23,11 +23,27 @@ layout: default
 
 * meProp: Sparsified Back Propagation for Accelerated Deep Learning with Reduced Overfitting  
   Xu Sun, **Xuancheng Ren**, Shuming Ma, Houfeng Wang  
-  In ICML 2017 [[pdf]](https://arxiv.org/pdf/1706.06197.pdf) [[code]](https://github.com/jklj077/meProp)
+  In ICML 2017 [[pdf]](http://proceedings.mlr.press/v70/sun17c/sun17c.pdf) [[code]](https://github.com/lancopku/meProp)
 
 * Building an Ellipsis-aware Chinese Dependency Treebank for Web Text  
   **Xuancheng Ren**, Xu Sun, Ji Wen, Bingzhen Wei, Weidong Zhan, Zhiyuan Zhang  
-  In LREC 2018 (to appear)
+  In LREC 2018  [[pdf]](http://www.lrec-conf.org/proceedings/lrec2018/pdf/297.pdf) [[data]](https://github.com/lancopku/Chinese-Dependency-Treebank-with-Ellipsis)
+
+* Unpaired Sentiment-to-Sentiment Translation: A Cycled Reinforcement Learning Approach  
+  Jingjing Xu, Xu Sun, Qi Zeng, Xiaodong Zhang, **Xuancheng Ren**, Houfeng Wang, Wenjie Li  
+  In ACL 2018 (to appear)
+
+* Deconvolution-Based Global Decoding for Neural Machine Translation  
+  Junyang Lin, Xu Sun, **Xuancheng Ren**, Shuming Ma, Jinsong Su, Qi Su  
+  In COLING 2018 (to appear)
+  
+* Does Higher Order LSTM Have Better Accuracy for Segmenting and Labeling Sequence Data?  
+  Yi Zhang, Xu Sun, Shuming Ma, Yang Yang, **Xuancheng Ren**  
+  In COLING 2018 (to appear)
+  
+* A Hierarchical End-to-End Model for Jointly Improving Text Summarization and Sentiment Classification  
+  Shuming Ma, Xu Sun, Junyang Lin, **Xuancheng Ren**  
+  In IJCAI 2018 (to appear)
 
 * Word Embedding Attention Network: Generating Words by Querying Distributed Word Representations for Paraphrase Generation  
   Shuming Ma, Xu Sun, Wei Li, Sujian Li, Wenjie Li, **Xuancheng Ren**  
