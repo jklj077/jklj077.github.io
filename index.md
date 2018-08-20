@@ -21,10 +21,10 @@ layout: default
 
 # Publication
 
-(* means fisrt authors)
+(\* means fisrt authors)
 
 * Stepwise Image-Topic Merging Network for Generating Detailed and Comprehensive Image Captions  
-  Fenglin Liu*, **Xuancheng Ren***, Yuanxin Liu, Houfeng Wang, Xu Sun  
+  Fenglin Liu*, **Xuancheng Ren\***, Yuanxin Liu, Houfeng Wang, Xu Sun  
   In EMNLP 2018 (to appear)
   
 * Diversity-Promoting GAN: A Cross-Entropy Based Generative Adversarial Network for Diversified Text Generation  
