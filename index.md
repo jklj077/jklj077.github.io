@@ -32,7 +32,7 @@ layout: default
   In EMNLP 2018 (to appear) [[code]](https://github.com/lancopku/DPGAN)
   
 * A Skeleton-Based Model for Promoting Coherence Among Sentences in Narrative Story Generation  
-  Jingjing Xu, **Xuancheng Ren**, Qi Zeng, Yi Zhang, Xiaoyan Cai, Xu Sun  
+  Jingjing Xu, Yi Zhang, Qi Zeng, **Xuancheng Ren**, Xiaoyan Cai, Xu Sun  
   In EMNLP 2018 (to appear) [[code]](https://github.com/lancopku/Skeleton-Based-Generation-Model)
   
 * Learning When to Concentrate or Divert Attention: Automatic Control of Attention Temperature for Neural Machine Translation  
