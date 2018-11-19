@@ -59,7 +59,7 @@ layout: default
 
 * Towards Easier and Faster Sequence Labeling for Natural Language Processing: A Search-based Probabilistic Online Learning Framework (SAPO)  
   Xu Sun, Shuming Ma, Yi Zhang, **Xuancheng Ren**  
-  Information Sciences (2019, _in press_) [[doi]](https://doi.org/10.1016/j.ins.2018.11.025) [[code]](https://github.com/lancopku/SAPO)
+  Information Sciences (2018, _in press_) [[doi]](https://doi.org/10.1016/j.ins.2018.11.025) [[code]](https://github.com/lancopku/SAPO)
   
 * A Hierarchical End-to-End Model for Jointly Improving Text Summarization and Sentiment Classification  
   Shuming Ma, Xu Sun, Junyang Lin, **Xuancheng Ren**  
