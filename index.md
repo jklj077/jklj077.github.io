@@ -20,6 +20,10 @@ layout: default
 
 (\* means fisrt authors)
 
+* Training Simplification and Model Simplification for Deep Learning: A Minimal Effort Back Propagation Method  
+  Xu Sun\*, **Xuancheng Ren\***, Shuming Ma, Bingzhen Wei, Wei Li, Jingjing Xu, Houfeng Wang, Yi Zhang  
+  IEEE Transactions on Knowledge and Data Engineering (TKDE) [[doi]](https://doi.org/10.1109/TKDE.2018.2883613) [[code]](https://github.com/lancopku/meSimp)
+
 * simNet: Stepwise Image-Topic Merging Network for Generating Detailed and Comprehensive Image Captions  
   Fenglin Liu\*, **Xuancheng Ren\***, Yuanxin Liu, Houfeng Wang, Xu Sun  
   In EMNLP 2018 [[pdf]](http://aclweb.org/anthology/D18-1013) [[code]](https://github.com/lancopku/simNet)
