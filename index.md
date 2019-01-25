@@ -84,12 +84,6 @@ layout: default
 
 
 
-# Technical Report
-
-* 面向语言处理的大规模结构化学习理论和技术  
-  马树铭, **任宣丞**, 孙栩  
-  [[pdf]](http://shumingma.com/%E9%9D%A2%E5%90%91%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E7%9A%84%E5%A4%A7%E8%A7%84%E6%A8%A1%E7%BB%93%E6%9E%84%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%90%86%E8%AE%BA%E5%92%8C%E6%8A%80%E6%9C%AF.pdf)
-
 # Honors and Awards
 
 * Merit Student, Peking University, 2017-2018.
