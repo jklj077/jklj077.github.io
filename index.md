@@ -22,7 +22,7 @@ layout: default
 
 #### 2019
 
-* A Sequence Operation Method for Text Style Transfer  
+* A Hierarchical Reinforced Sequence Operation Methodfor Unsupervised Text Style Transfer  
   Wu Chen\*, **Xuancheng Ren\***, Fuli Luo, Xu Sun  
   In ACL 2019 (to appear)  
 
