@@ -31,7 +31,7 @@ layout: default
   In IJCAI 2019 (to appear)  
 
 * Review-Driven Multi-Label Music Style Classification by Exploiting Style Correlations  
-  Guangxiang Zhao*, JingjingXu*, Qi Zeng, **Xuancheng Ren**, Xu Sun  
+  Guangxiang Zhao\*, JingjingXu\*, Qi Zeng, **Xuancheng Ren**, Xu Sun  
   In NAACL-HLT 2019 (short paper, to appear) [[pdf]](https://arxiv.org/abs/1808.07604) [[code]](https://github.com/lancopku/RMSC)
 
 * Training Simplification and Model Simplification for Deep Learning: A Minimal Effort Back Propagation Method  
