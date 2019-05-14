@@ -20,9 +20,33 @@ layout: default
 
 (\* means fisrt authors)
 
+#### 2019
+
+* A Sequence Operation Method for Text Style Transfer  
+  Wu Chen\*, **Xuancheng Ren\***, Fuli Luo, Xu Sun  
+  In ACL 2019 (to appear)  
+
+* Exploring and Distilling Cross-Modal Information for Image Captioning  
+  Fenglin Liu\*, **Xuancheng Ren\***, Yuanxin Liu, Kai Lei, Xu Sun  
+  In IJCAI 2019 (to appear)  
+
+* Review-Driven Multi-Label Music Style Classification by Exploiting Style Correlations  
+  Guangxiang Zhao*, JingjingXu*, Qi Zeng, **Xuancheng Ren**, Xu Sun  
+  In NAACL-HLT 2019 (short paper, to appear) [[pdf]](https://arxiv.org/abs/1808.07604) [[code]](https://github.com/lancopku/RMSC)
+
 * Training Simplification and Model Simplification for Deep Learning: A Minimal Effort Back Propagation Method  
   Xu Sun\*, **Xuancheng Ren\***, Shuming Ma, Bingzhen Wei, Wei Li, Jingjing Xu, Houfeng Wang, Yi Zhang  
   IEEE Transactions on Knowledge and Data Engineering (TKDE) [[doi]](https://doi.org/10.1109/TKDE.2018.2883613) [[code]](https://github.com/lancopku/meSimp)
+
+* Towards Easier and Faster Sequence Labeling for Natural Language Processing: A Search-based Probabilistic Online Learning Framework (SAPO)  
+  Xu Sun, Shuming Ma, Yi Zhang, **Xuancheng Ren**  
+  Information Sciences (478: 303-317, 2019) [[doi]](https://doi.org/10.1016/j.ins.2018.11.025) [[code]](https://github.com/lancopku/SAPO)
+
+* Regularizing Output Distribution of Abstractive Chinese Social Media Text Summarization for Improved Semantic Consistency  
+  Bingzhen Wei, **Xuancheng Ren**, Yi Zhang, Xiaoyan Cai, Qi Su, Xu Sun  
+  ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP 18(3): 31:1-31:15, 2019) [[doi]](https://doi.org/10.1145/3314934)
+
+#### 2018
 
 * simNet: Stepwise Image-Topic Merging Network for Generating Detailed and Comprehensive Image Captions  
   Fenglin Liu\*, **Xuancheng Ren\***, Yuanxin Liu, Houfeng Wang, Xu Sun  
@@ -40,10 +64,9 @@ layout: default
   Junyang Lin, Xu Sun, **Xuancheng Ren**, Muyu Li, Qi Su  
   In EMNLP 2018 (short paper) [[pdf]](http://aclweb.org/anthology/D18-1331) [[code]](https://github.com/lancopku/SACT)
 
-* meProp: Sparsified Back Propagation for Accelerated Deep Learning with Reduced Overfitting  
-  Xu Sun, **Xuancheng Ren**, Shuming Ma, Houfeng Wang  
-  In ICML 2017 [[pdf]](http://proceedings.mlr.press/v70/sun17c/sun17c.pdf) [[code]](https://github.com/lancopku/meProp)
-  
+* Unpaired Sentiment-to-Sentiment Translation: A Cycled Reinforcement Learning Approach  
+  Jingjing Xu*, Xu Sun*, Qi Zeng, Xiaodong Zhang, **Xuancheng Ren**, Houfeng Wang, Wenjie Li  
+  In ACL 2018 [[pdf]](http://aclweb.org/anthology/P18-1090) [[code]](https://github.com/lancopku/Unpaired-Sentiment-Translation)
 
 * Deconvolution-Based Global Decoding for Neural Machine Translation  
   Junyang Lin, Xu Sun, **Xuancheng Ren**, Shuming Ma, Jinsong Su, Qi Su  
@@ -53,18 +76,10 @@ layout: default
   Yi Zhang, Xu Sun, Shuming Ma, Yang Yang, **Xuancheng Ren**  
   In COLING 2018 [[pdf]](http://aclweb.org/anthology/C18-1061) [[code]](https://github.com/lancopku/Multi-Order-LSTM)
 
-* Unpaired Sentiment-to-Sentiment Translation: A Cycled Reinforcement Learning Approach  
-  Jingjing Xu, Xu Sun, Qi Zeng, Xiaodong Zhang, **Xuancheng Ren**, Houfeng Wang, Wenjie Li  
-  In ACL 2018 [[pdf]](http://aclweb.org/anthology/P18-1090) [[code]](https://github.com/lancopku/Unpaired-Sentiment-Translation)
-
 * Cross-Domain and Semi-Supervised Named Entity Recognition in Chinese Social Media: A Unified Model  
   Jingjing Xu, Hangfeng He, **Xuancheng Ren**, Sujian Li, Xu Sun  
   IEEE/ACM Transactions on Audio, Speech and Language Processing (TASLP 26(11): 2142-2152, 2018) [[doi]](https://doi.org/10.1109/TASLP.2018.2856625) [[code]](https://github.com/lancopku/ChineseNER)
 
-* Towards Easier and Faster Sequence Labeling for Natural Language Processing: A Search-based Probabilistic Online Learning Framework (SAPO)  
-  Xu Sun, Shuming Ma, Yi Zhang, **Xuancheng Ren**  
-  Information Sciences (478: 303-317, 2019) [[doi]](https://doi.org/10.1016/j.ins.2018.11.025) [[code]](https://github.com/lancopku/SAPO)
-  
 * A Hierarchical End-to-End Model for Jointly Improving Text Summarization and Sentiment Classification  
   Shuming Ma, Xu Sun, Junyang Lin, **Xuancheng Ren**  
   In IJCAI 2018 [[doi]](https://doi.org/10.24963/ijcai.2018/591) [[code]](https://github.com/lancopku/HSSC)
@@ -80,8 +95,11 @@ layout: default
 * Building an Ellipsis-aware Chinese Dependency Treebank for Web Text  
   **Xuancheng Ren**, Xu Sun, Ji Wen, Bingzhen Wei, Weidong Zhan, Zhiyuan Zhang  
   In LREC 2018  [[pdf]](http://www.lrec-conf.org/proceedings/lrec2018/pdf/297.pdf) [[data]](https://github.com/lancopku/Chinese-Dependency-Treebank-with-Ellipsis)
-
-
+  
+#### 2017
+* meProp: Sparsified Back Propagation for Accelerated Deep Learning with Reduced Overfitting  
+  Xu Sun, **Xuancheng Ren**, Shuming Ma, Houfeng Wang  
+  In ICML 2017 [[pdf]](http://proceedings.mlr.press/v70/sun17c/sun17c.pdf) [[code]](https://github.com/lancopku/meProp)
 
 
 # Honors and Awards
