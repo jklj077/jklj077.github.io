@@ -18,7 +18,7 @@ layout: default
 
 # Publication
 
-(selected, \* means fisrt authors)
+(selected, \* means first authors)
 
 * A Hierarchical Reinforced Sequence Operation Method for Unsupervised Text Style Transfer  
   Wu Chen\*, **Xuancheng Ren\***, Fuli Luo, Xu Sun  
