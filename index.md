@@ -18,7 +18,7 @@ layout: default
 
 # Publication
 
-(selected, \* means first authors)
+(selected, \* means first authors, full list as [[.bib]](https://dblp.org/pers/tb0/r/Ren:Xuancheng.bib) at dblp.org)
 
 * A Hierarchical Reinforced Sequence Operation Method for Unsupervised Text Style Transfer  
   Wu Chen\*, **Xuancheng Ren\***, Fuli Luo, Xu Sun  
