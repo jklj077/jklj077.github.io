@@ -22,7 +22,7 @@ layout: default
 
 * A Hierarchical Reinforced Sequence Operation Method for Unsupervised Text Style Transfer  
   Wu Chen\*, **Xuancheng Ren\***, Fuli Luo, Xu Sun  
-  In ACL 2019 (*to appear*)  
+  In ACL 2019 [[pdf]](https://www.aclweb.org/anthology/P19-1482) [[code]](https://github.com/ChenWu98/Point-Then-Operate)  
 
 * Exploring and Distilling Cross-Modal Information for Image Captioning  
   Fenglin Liu\*, **Xuancheng Ren\***, Yuanxin Liu, Kai Lei, Xu Sun  
