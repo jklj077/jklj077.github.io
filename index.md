@@ -26,7 +26,7 @@ layout: default
 
 * Exploring and Distilling Cross-Modal Information for Image Captioning  
   Fenglin Liu\*, **Xuancheng Ren\***, Yuanxin Liu, Kai Lei, Xu Sun  
-  In IJCAI 2019 (*to appear*)  
+  In IJCAI 2019 [[doi]](https://doi.org/10.24963/ijcai.2019/708) 
 
 * Training Simplification and Model Simplification for Deep Learning: A Minimal Effort Back Propagation Method  
   Xu Sun\*, **Xuancheng Ren\***, Shuming Ma, Bingzhen Wei, Wei Li, Jingjing Xu, Houfeng Wang, Yi Zhang  
