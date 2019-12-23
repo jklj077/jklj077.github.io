@@ -3,7 +3,7 @@
 
 title: "JDDC 2018"
 summary: ""
-authors: ["Ruixuan Luo", "Xuancheng Ren", "Junyang Lin", "Jingjing Xu", "Xu Sun"]
+authors: ["Ruixuan Luo", "**Xuancheng Ren**", "Junyang Lin", "Jingjing Xu", "Xu Sun"]
 tags: []
 categories: []
 date: 2018-10-31T22:42:45+08:00

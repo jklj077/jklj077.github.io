@@ -3,7 +3,7 @@
 
 title: "PKUSeg"
 summary: ""
-authors: ["Ruixuan Luo", "Jingjing Xu", "Xuancheng Ren", "Yi Zhang", "Bingzhen Wei", "Xu Sun"]
+authors: ["Ruixuan Luo", "Jingjing Xu", "**Xuancheng Ren**", "Yi Zhang", "Bingzhen Wei", "Xu Sun"]
 tags: []
 categories: []
 date: 2019-06-27T22:42:33+08:00
