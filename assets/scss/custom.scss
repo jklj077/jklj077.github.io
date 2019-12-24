@@ -1,0 +1,42 @@
+div.article-banner {
+  width: 90%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+.article-publication-short {
+  overflow: hidden;
+  float: right;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: rgba(0,0,0,0.54);
+}
+
+h4.article-title {
+  color: $sta-link;
+  text-decoration: none;
+  transition: color 0.6s ease;
+}
+
+.portrait-title h4 {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: rgba(0,0,0, 0.54);
+  margin: 0px 0 10px 0;
+}
+
+ul.ul-interests li ul li {
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+ul.ul-edu li .description p.institution {
+  font-size: 0.85rem;
+  color: rgba(0,0,0,0.6);
+}
+
+.people-widget .portrait-title h4 {
+  font-size: 0.5rem;
+}
