@@ -9,7 +9,7 @@ featured: false
 publication: "*Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, **NAACL-HLT 2018**, Volume 2 (Short Papers)*"
 publication_short: "**NAACL-HLT 2018**"
 url_pdf: "https://www.aclweb.org/anthology/N18-2059/"
-url_arxiv: "http://arxiv.org/abs/1803.05662"
+url_arxiv: "https://arxiv.org/abs/1803.05662"
 doi: "10.18653/v1/N18-2059"
 ---
 

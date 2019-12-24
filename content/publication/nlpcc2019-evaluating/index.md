@@ -10,6 +10,6 @@ publication: "*Natural Language Processing and Chinese Computing - 8th CCF Inter
 publication_short: "**NLPCC 2019**"
 url_pdf: "https://doi.org/10.1007/978-3-030-32233-5_61"
 doi: "10.1007/978-3-030-32233-5_61"
-url_arxiv: "http://arxiv.org/abs/1809.03999"
+url_arxiv: "https://arxiv.org/abs/1809.03999"
 ---
 

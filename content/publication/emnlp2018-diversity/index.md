@@ -9,7 +9,7 @@ featured: false
 publication: "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, **EMNLP 2018***"
 publication_short: "**EMNLP 2018**"
 url_pdf: "https://www.aclweb.org/anthology/D18-1428/"
-url_arxiv: "http://arxiv.org/abs/1802.01345"
+url_arxiv: "https://arxiv.org/abs/1802.01345"
 url_code: "https://github.com/lancopku/DPGAN"
 doi: "10.18653/v1/D18-1428"
 ---

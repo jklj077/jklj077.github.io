@@ -9,7 +9,7 @@ featured: false
 publication: "*Proceedings of the Second Workshop on Economics and Natural Language Processing, **ECONLP 2019***"
 publication_short: "**ECONLP 2019**"
 url_pdf: "https://www.aclweb.org/anthology/D19-5105/"
-url_arxiv: "http://arxiv.org/abs/1910.05078"
+url_arxiv: "https://arxiv.org/abs/1910.05078"
 doi: "10.18653/v1/D19-5105"
 ---
 

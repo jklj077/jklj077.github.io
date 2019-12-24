@@ -10,6 +10,6 @@ publication: "*ACM Transactions on Asian and Low-Resource Language Information P
 publication_short: "**TALLIP** 18(3)"
 url_pdf: "https://doi.org/10.1145/3314934"
 doi: "10.1145/3314934"
-url_arxiv: "http://arxiv.org/abs/1805.04033"
+url_arxiv: "https://arxiv.org/abs/1805.04033"
 ---
 

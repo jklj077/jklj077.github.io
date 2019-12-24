@@ -9,7 +9,7 @@ featured: true
 publication: "*Proceedings of the 34th International Conference on Machine Learning, **ICML 2017***"
 publication_short: "**ICML 2017**"
 url_pdf: "http://proceedings.mlr.press/v70/sun17c.html"
-url_arxiv: "http://arxiv.org/abs/1706.06197"
+url_arxiv: "https://arxiv.org/abs/1706.06197"
 url_code: "https://github.com/lancopku/meProp"
 
 # Featured image

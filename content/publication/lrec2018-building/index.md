@@ -9,7 +9,7 @@ featured: false
 publication: "*Proceedings of the Eleventh International Conference on Language Resources and Evaluation, **LREC 2018***"
 publication_short: "**LREC 2018**"
 url_pdf: "http://www.lrec-conf.org/proceedings/lrec2018/summaries/297.html"
-url_arxiv: "http://arxiv.org/abs/1801.06613"
+url_arxiv: "https://arxiv.org/abs/1801.06613"
 url_dataset: "https://github.com/lancopku/Chinese-Dependency-Treebank-with-Ellipsis"
 ---
 

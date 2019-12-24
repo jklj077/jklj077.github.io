@@ -28,7 +28,7 @@ image:
 #   icon: twitter
 
 url_code: "https://github.com/lancopku/pkuseg-python"
-url_pdf: "http://arxiv.org/abs/1906.11455"
+url_pdf: "https://arxiv.org/abs/1906.11455"
 url_slides: ""
 url_video: ""
 

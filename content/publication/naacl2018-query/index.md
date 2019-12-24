@@ -10,7 +10,7 @@ publication: "*Proceedings of the 2018 Conference of the North American Chapter 
 publication_short: "**NAACL-HLT 2018**"
 url_code: "https://github.com/lancopku/WEAN"
 url_pdf: "https://www.aclweb.org/anthology/N18-1018/"
-url_arxiv: "http://arxiv.org/abs/1803.01465"
+url_arxiv: "https://arxiv.org/abs/1803.01465"
 doi: "10.18653/v1/N18-1018"
 ---
 

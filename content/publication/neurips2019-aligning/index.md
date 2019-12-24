@@ -9,7 +9,7 @@ featured: true
 publication: "*Advances in Neural Information Processing Systems 32 (**NeurIPS 2019**)*"
 publication_short: "**NeurIPS 2019**"
 url_pdf: "https://papers.nips.cc/paper/8909-aligning-visual-regions-and-textual-concepts-for-semantic-grounded-image-representations"
-url_arxiv: "http://arxiv.org/abs/1905.06139"
+url_arxiv: "https://arxiv.org/abs/1905.06139"
 url_code: "https://github.com/fenglinliu98/MIA"
 
 

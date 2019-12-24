@@ -10,7 +10,7 @@ publication: "*Proceedings of the Twenty-Seventh International Joint Conference 
 publication_short: "**IJCAI 2018**"
 url_pdf: "https://doi.org/10.24963/ijcai.2018/591"
 doi: "10.24963/ijcai.2018/591"
-url_arxiv: "http://arxiv.org/abs/1805.01089"
+url_arxiv: "https://arxiv.org/abs/1805.01089"
 url_code: "https://github.com/lancopku/HSSC"
 ---
 
