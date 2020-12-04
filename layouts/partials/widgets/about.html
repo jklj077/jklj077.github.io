@@ -3,42 +3,51 @@
 
 {{ $author := "" }}
 {{ if .author }}
-{{ $author = .author }}
+  {{ $author = .author }}
 {{ else }}
-{{ $author = $page.Params.author }}
-{{end}}
+  {{ $author = $page.Params.author }}
+{{ end }}
 
 {{ $person_page_path := (printf "/authors/%s" (urlize $author)) }}
 {{ $person_page := site.GetPage $person_page_path }}
 {{ if not $person_page }}
-{{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your About widget and create an associated author page if one does not already exist. See https://sourcethemes.com/academic/docs/page-builder/#about " $person_page_path }}
-{{end}}
+  {{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your About widget and create an associated author page if one does not already exist. See https://sourcethemes.com/academic/docs/page-builder/#about " $person_page_path }}
+{{ end }}
 {{ $person := $person_page.Params }}
+{{/* jklj077: use profile instead of avatar */}}
 {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*profile*" }}
+{{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
+{{/* jklj077: extract the variable avatar_shape_class */}}
+{{ $avatar_shape_class := "avatar-circle" }}
+{{ if eq $avatar_shape "square" }}
+  {{ $avatar_shape_class = "avatar-square" }}
+{{ end }}
 
 <!-- About widget -->
 <div class="row">
   <div class="col-12 col-lg-4">
     <div id="profile">
 
-      {{ if site.Params.gravatar }}
-      <img class="portrait" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=200')" alt="Avatar">
+      {{ if site.Params.avatar.gravatar }}
+        <img class="avatar {{ $avatar_shape_class }}" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=270')" alt="{{$person_page.Title}}">
       {{ else if $avatar }}
-      {{ $avatar_image := $avatar.Fill "250x250 Center" }}
-      <img class="portrait" src="{{ $avatar_image.RelPermalink }}" alt="Avatar">
+        {{/* jklj077: 250 instead of 270 */}}
+        {{ $avatar_image := $avatar.Fill "250x250 Center" }}
+        <img class="avatar {{ $avatar_shape_class }}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
       {{ end }}
 
       <div class="portrait-title">
-        <h2>{{ $person.name }}</h2>
-        {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
+          <h2>{{ $person_page.Title }}</h2>
+          {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
 
-        {{ range $person.organizations }}
-        <h4>
-          {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
+          {{ range $person.organizations }}
+          {{/* jklj077: smaller font for org links */}}
+          <h4>
+            {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
             <span>{{ .name }}</span>
             {{ if .url }}</a>{{ end }}
-        </h4>
-        {{ end }}
+          </h4>
+          {{ end }}
       </div>
 
       <ul class="network-icon" aria-hidden="true">
@@ -46,15 +55,15 @@
         {{ $pack := or .icon_pack "fas" }}
         {{ $pack_prefix := $pack }}
         {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-        {{ $pack_prefix = "fa" }}
+          {{ $pack_prefix = "fa" }}
         {{ end }}
         {{ $link := .link }}
         {{ $scheme := (urls.Parse $link).Scheme }}
         {{ $target := "" }}
         {{ if not $scheme }}
-        {{ $link = .link | relLangURL }}
+          {{ $link = .link | relLangURL }}
         {{ else if in (slice "http" "https") $scheme }}
-        {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
         {{ end }}
         <li>
           <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
@@ -63,8 +72,8 @@
         </li>
         {{ end }}
       </ul>
-
     </div>
+
   </div>
   <div class="col-12 col-lg-8">
 

@@ -2,7 +2,9 @@
 {{ $page := .page }}
 {{ $link := "" }}
 
+{{/* jklj077: remove url_preprint */}}
 {{/* ***** TODO: Deprecate `url_preprint` in favour of `url_pdf` given there's now a dedicated "Preprint" pub. type. ***** */}}
+{{/*
 {{ with $page.Params.url_preprint }}
   {{ $resource := $page.Resources.GetMatch . }}
   {{ if $resource }}
@@ -14,6 +16,9 @@
   {{ i18n "btn_preprint" }}
 </a>
 {{ end }}
+*/}}
+
+{{/* jklj077: change order to pdf, cite, [doi, arxiv (new),] code*/}}
 {{ $pdf := "" }}
 {{ $resource := $page.Resources.GetMatch (printf "%s.pdf" $page.File.ContentBaseName) }}
 {{ with $resource }}
@@ -23,12 +28,26 @@
     {{ $pdf = $page.Params.url_pdf | relURL }}
   {{ end }}
 {{ end }}
-
 {{ with $pdf }}
 <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ . }}" target="_blank" rel="noopener">
-  {{ i18n "btn_pdf" }}
+  {{ i18n "btn_url" }}
 </a>
 {{ end }}
+
+{{ $resource := $page.Resources.GetMatch "cite.bib" }}
+{{ with $resource }}
+<button type="button" class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}} js-cite-modal"
+        data-filename="{{ .RelPermalink }}">
+  {{ i18n "btn_cite" }}
+</button>
+{{ end }}
+
+{{ with $page.Params.doi }}
+<a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="https://doi.org/{{ . }}" target="_blank" rel="noopener">
+  DOI
+</a>
+{{ end }}
+
 {{ with $page.Params.url_arxiv }}
   {{ $resource := $page.Resources.GetMatch . }}
   {{ if $resource }}
@@ -40,13 +59,7 @@
   {{ i18n "btn_arxiv" }}
 </a>
 {{ end }}
-{{ $resource := $page.Resources.GetMatch "cite.bib" }}
-{{ with $resource }}
-<button type="button" class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}} js-cite-modal"
-        data-filename="{{ .RelPermalink }}">
-  {{ i18n "btn_cite" }}
-</button>
-{{ end }}
+
 {{ with $page.Params.url_code }}
   {{ $resource := $page.Resources.GetMatch . }}
   {{ if $resource }}
@@ -58,6 +71,7 @@
   {{ i18n "btn_code" }}
 </a>
 {{ end }}
+
 {{ with $page.Params.url_dataset }}
   {{ $resource := $page.Resources.GetMatch . }}
   {{ if $resource }}
@@ -69,6 +83,7 @@
   {{ i18n "btn_dataset" }}
 </a>
 {{ end }}
+
 {{ if $page.Params.projects }}
 {{ range $page.Params.projects }}
   {{ with (site.GetPage (printf "project/%s" .)) }}
@@ -86,6 +101,7 @@
 </a>
 {{ end }}
 {{ end }}
+
 {{ with $page.Params.url_poster }}
   {{ $resource := $page.Resources.GetMatch . }}
   {{ if $resource }}
@@ -97,6 +113,7 @@
   {{ i18n "btn_poster" }}
 </a>
 {{ end }}
+
 {{ if $page.Params.slides }}
   {{ with (site.GetPage (printf "slides/%s" $page.Params.slides)) }}
   <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ .RelPermalink }}" target="_blank">
@@ -116,6 +133,7 @@
 </a>
 {{ end }}
 {{ end }}
+
 {{ with $page.Params.url_video }}
   {{ $resource := $page.Resources.GetMatch . }}
   {{ if $resource }}
@@ -127,6 +145,7 @@
   {{ i18n "btn_video" }}
 </a>
 {{ end }}
+
 {{ with $page.Params.url_source }}
   {{ $resource := $page.Resources.GetMatch . }}
   {{ if $resource }}
@@ -138,11 +157,7 @@
   {{ i18n "btn_source" }}
 </a>
 {{ end }}
-{{ with $page.Params.doi }}
-<a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="https://doi.org/{{ . }}" target="_blank" rel="noopener">
-  DOI
-</a>
-{{ end }}
+
 {{ range $page.Params.links }}
   {{ $pack := or .icon_pack "fas" }}
   {{ $pack_prefix := $pack }}

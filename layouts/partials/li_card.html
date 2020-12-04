@@ -45,10 +45,11 @@
   {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
   {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
   {{ with $resource }}
+  {{/* jklj077: change style, feature image fill to fit, add shadow to card */}}
   {{ $image := .Fit (printf "918x517 q90 %s" $anchor) }}
   <a href="{{ $item.RelPermalink }}">
     <div class="article-banner shadow" >
-      <img src="{{ $image.RelPermalink }}" alt="">
+      <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}">
     </div>
   </a>
   {{end}}
@@ -58,9 +59,11 @@
   </h3>
 
   {{ with $summary }}
+  <a href="{{ $item.RelPermalink }}" class="summary-link"></a>
   <div class="article-style">
     <p>{{.}}</p>
   </div>
+  </a>
   {{ end }}
 
   {{ if $show_buttons }}

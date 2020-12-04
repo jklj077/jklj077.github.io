@@ -2,7 +2,7 @@
 title: "Review-Driven Multi-Label Music Style Classification by Exploiting Style Correlations"
 date: 2019-06-02
 publishDate: 2019-12-23T08:04:29.926093Z
-authors: ["Guangxiang Zhao", "Jingjing Xu", "Qi Zeng", "**Xuancheng Ren**", "Xu Sun"]
+authors: ["Guangxiang Zhao", "Jingjing Xu", "Qi Zeng", "admin", "Xu Sun"]
 publication_types: ["1"]
 abstract: "This paper explores a new natural languageprocessing task, review-driven multi-label musicstyle classification. This task requires systemsto identify multiple styles of music basedon its reviews on websites. The biggest challengelies in the complicated relations of musicstyles. To tackle this problem, we proposea novel deep learning approach to automaticallylearn and exploit style correlations.Experiment results show that our approachachieves large improvements over baselines onthe proposed dataset. Furthermore, the visualizedanalysis shows that our approach performswell in capturing style correlations."
 featured: false

@@ -40,6 +40,9 @@
 - id: btn_pdf
   translation: PDF
 
+- id: btn_url
+  translation: URL
+
 - id: btn_cite
   translation: Cite
 

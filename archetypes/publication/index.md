@@ -37,6 +37,7 @@ featured: false
 #   icon: twitter
 
 url_pdf:
+# jklj077: add arxiv links
 url_arxiv:
 url_code:
 url_dataset:

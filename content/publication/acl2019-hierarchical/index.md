@@ -2,7 +2,10 @@
 title: "A Hierarchical Reinforced Sequence Operation Method for Unsupervised Text Style Transfer"
 date: 2019-08-02
 publishDate: 2019-12-23T08:04:29.921124Z
-authors: ["Chen Wu*", "**Xuancheng Ren***", "Fuli Luo", "Xu Sun"]
+authors: ["Chen Wu", "admin", "Fuli Luo", "Xu Sun"]
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
 publication_types: ["1"]
 abstract: "Unsupervised text style transfer aims to alter text styles while preserving the content, without aligned data for supervision. Existing seq2seq methods face three challenges: 1) the transfer is weakly interpretable, 2) generated outputs struggle in content preservation, and 3) the trade-off between content and style is intractable. To address these challenges, we propose a hierarchical reinforced sequence operation method, named Point-Then-Operate (PTO), which consists of a high-level agent that proposes operation positions and a low-level agent that alters the sentence. We provide comprehensive training objectives to control the fluency, style, and content of the outputs and a mask-based inference algorithm that allows for multi-step revision based on the single-step trained agents. Experimental results on two text style transfer datasets show that our method significantly outperforms recent methods and effectively addresses the aforementioned challenges."
 featured: true

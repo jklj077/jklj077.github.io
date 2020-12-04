@@ -14,4 +14,4 @@ header:
   image: ""
 ---
 
-(\* means first authors)
+<!-- (\* means first authors) -->

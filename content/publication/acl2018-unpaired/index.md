@@ -2,7 +2,10 @@
 title: "Unpaired Sentiment-to-Sentiment Translation: A Cycled Reinforcement Learning Approach"
 date: 2018-07-15
 publishDate: 2019-12-23T08:04:29.963124Z
-authors: ["Jingjing Xu", "Xu Sun", "Qi Zeng", "Xiaodong Zhang", "**Xuancheng Ren**", "Houfeng Wang", "Wenjie Li"]
+authors: ["Jingjing Xu", "Xu Sun", "Qi Zeng", "Xiaodong Zhang", "admin", "Houfeng Wang", "Wenjie Li"]
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
 publication_types: ["1"]
 abstract: "The goal of sentiment-to-sentiment “translation” is to change the underlying sentiment of a sentence while keeping its content. The main challenge is the lack of parallel data. To solve this problem, we propose a cycled reinforcement learning method that enables training on unpaired data by collaboration between a neutralization module and an emotionalization module. We evaluate our approach on two review datasets, Yelp and Amazon. Experimental results show that our approach significantly outperforms the state-of-the-art systems. Especially, the proposed method substantially improves the content preservation performance. The BLEU score is improved from 1.64 to 22.46 and from 0.56 to 14.06 on the two datasets, respectively."
 featured: false
