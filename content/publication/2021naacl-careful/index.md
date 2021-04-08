@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Be Careful about Poisoned Word Embeddings: Exploring the Vulnerability of the Embedding Layers in NLP Models"
-authors: ["Wenkai Yang", "Lei Li", "Zhiyuan Zhang", "admin", "Xu Sun", "Qun Liu"]
+authors: ["Wenkai Yang", "Lei Li", "Zhiyuan Zhang", "admin", "Xu Sun", "Bin He"]
 date: 2021-06-06
 doi: ""
 
