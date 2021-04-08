@@ -37,9 +37,9 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
-url_arxiv:
-url_code:
+url_pdf: "https://www.aaai.org/AAAI21Papers/AAAI-2538.SunX.pdf"
+url_arxiv: "https://arxiv.org/abs/2006.05620"
+url_code: 
 url_dataset:
 url_poster:
 url_project:

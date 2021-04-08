@@ -37,7 +37,7 @@ featured: false
 #   icon: twitter
 
 url_pdf:
-url_arxiv:
+url_arxiv: "https://arxiv.org/abs/2102.10780"
 url_code:
 url_dataset:
 url_poster:

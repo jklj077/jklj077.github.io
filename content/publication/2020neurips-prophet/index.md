@@ -8,5 +8,8 @@ abstract: "Recently, attention based models have been used extensively in image 
 featured: false
 publication: "*Advances in Neural Information Processing Systems 33, **NeurIPS 2020** (to appear)*"
 publication_short: "**NeurIPS 2020** (to appear)"
+
+url_pdf: "https://proceedings.neurips.cc/paper/2020/hash/13fe9d84310e77f13a6d184dbf1232f3-Abstract.html"
+
 ---
 
