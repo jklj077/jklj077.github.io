@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bingzhen Wei | Xuancheng Ren</title><link>https://jklj077.github.io/author/bingzhen-wei/</link><atom:link href="https://jklj077.github.io/author/bingzhen-wei/index.xml" rel="self" type="application/rss+xml"/><description>Bingzhen Wei</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Xuancheng Ren</copyright><lastBuildDate>Thu, 27 Jun 2019 22:42:33 +0800</lastBuildDate><image><url>https://jklj077.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>Bingzhen Wei</title><link>https://jklj077.github.io/author/bingzhen-wei/</link></image><item><title>PKUSeg</title><link>https://jklj077.github.io/project/pkuseg/</link><pubDate>Thu, 27 Jun 2019 22:42:33 +0800</pubDate><guid>https://jklj077.github.io/project/pkuseg/</guid><description>&lt;p>PKUSeg-python is a multi-domain Chinese word segmentation toolkit in Python. There is also a C# version of this toolkit, in which I am not involved.&lt;/p>
+&lt;h2 id="highlights">Highlights&lt;/h2>
+&lt;p>The toolkit has the following features:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Supporting multi-domain Chinese word segmentation. PKUSeg-python supports multi-domain segmentation, including domains like news, web, medicine, and tourism. Users are free to choose different pre-trained models according to the domain features of the text to be segmented. If not sure the domain of the text, users are recommended to use the default model trained on mixed-domain data.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Higher word segmentation results. Compared with existing word segmentation toolkits, pkuseg-python can achieve higher F1 scores on the same dataset.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Supporting model training. PKUSeg-python also supports users to train a new segmentation model with their own data.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Supporting POS tagging. We also provide users POS tagging interfaces for further lexical analysis.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="work">Work&lt;/h2>
+&lt;p>I have mainly worked on improving the efficiency and the maintainability of the toolkit:&lt;/p>
+&lt;ul>
+&lt;li>Identify the bottleneck of speed&lt;/li>
+&lt;li>Rework the core compuation parts with Cython, bringing ~9x speedup&lt;/li>
+&lt;li>Refactor the codes and address backward compatibility&lt;/li>
+&lt;/ul></description></item><item><title>Training Simplification and Model Simplification for Deep Learning: A Minimal Effort Back Propagation Method</title><link>https://jklj077.github.io/publication/2018tkde-training/</link><pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate><guid>https://jklj077.github.io/publication/2018tkde-training/</guid><description/></item><item><title>Building an Ellipsis-Aware Chinese Dependency Treebank for Web Text</title><link>https://jklj077.github.io/publication/2018lrec-building/</link><pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate><guid>https://jklj077.github.io/publication/2018lrec-building/</guid><description/></item></channel></rss>

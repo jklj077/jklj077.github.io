@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | Xuancheng Ren</title><link>https://jklj077.github.io/project/</link><atom:link href="https://jklj077.github.io/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Xuancheng Ren</copyright><lastBuildDate>Thu, 27 Jun 2019 22:42:33 +0800</lastBuildDate><image><url>https://jklj077.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>Projects</title><link>https://jklj077.github.io/project/</link></image><item><title>PKUSeg</title><link>https://jklj077.github.io/project/pkuseg/</link><pubDate>Thu, 27 Jun 2019 22:42:33 +0800</pubDate><guid>https://jklj077.github.io/project/pkuseg/</guid><description>&lt;p>PKUSeg-python is a multi-domain Chinese word segmentation toolkit in Python. There is also a C# version of this toolkit, in which I am not involved.&lt;/p>
+&lt;h2 id="highlights">Highlights&lt;/h2>
+&lt;p>The toolkit has the following features:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Supporting multi-domain Chinese word segmentation. PKUSeg-python supports multi-domain segmentation, including domains like news, web, medicine, and tourism. Users are free to choose different pre-trained models according to the domain features of the text to be segmented. If not sure the domain of the text, users are recommended to use the default model trained on mixed-domain data.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Higher word segmentation results. Compared with existing word segmentation toolkits, pkuseg-python can achieve higher F1 scores on the same dataset.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Supporting model training. PKUSeg-python also supports users to train a new segmentation model with their own data.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Supporting POS tagging. We also provide users POS tagging interfaces for further lexical analysis.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="work">Work&lt;/h2>
+&lt;p>I have mainly worked on improving the efficiency and the maintainability of the toolkit:&lt;/p>
+&lt;ul>
+&lt;li>Identify the bottleneck of speed&lt;/li>
+&lt;li>Rework the core compuation parts with Cython, bringing ~9x speedup&lt;/li>
+&lt;li>Refactor the codes and address backward compatibility&lt;/li>
+&lt;/ul></description></item><item><title>JDDC 2018</title><link>https://jklj077.github.io/project/jddc/</link><pubDate>Wed, 31 Oct 2018 22:42:45 +0800</pubDate><guid>https://jklj077.github.io/project/jddc/</guid><description>&lt;p>JDDC stands for JD Dialog Challenge, which is a task-oriented multi-turn dialogue challenge in the e-commerce setup. We participated in the 2018 edition of this challenge.&lt;/p>
+&lt;h2 id="highlights">Highlights&lt;/h2>
+&lt;p>We design a novel system based on mixed response proposal.&lt;/p>
+&lt;ol>
+&lt;li>A classification module based on fully-connected neural network using bag-of-words is first used to dispatch the coming questions, either for answer retrieving or for answer generation.&lt;/li>
+&lt;li>For answer retrieving, common questions are directly mapped to the corresponding answer pool and an answer is randomly selected. The answer pool is generated based on the clusterd questions in terms of semantic similarity.&lt;/li>
+&lt;li>For answer generation, other questions are given to a history-based sequence-to-sequence neural network, and a never-before-seen answer is generated based on beam search.&lt;/li>
+&lt;/ol>
+&lt;p>The proposed system works fine for practical purpose:&lt;/p>
+&lt;ul>
+&lt;li>It achieves a good balance between speed and accuarcy. Surprisingly, we did not use the related product knowledge but answered most of the questions very well.&lt;/li>
+&lt;li>We won the first place in the automatic evaluation and were second to the based in the human evaluation. In addition, we were given the &lt;em>Architecture Innovation Award&lt;/em> and the &lt;em>Excellent Instructor Award&lt;/em> was given to Prof. Xu Sun.&lt;/li>
+&lt;/ul>
+&lt;h2 id="work">Work&lt;/h2>
+&lt;p>I joined the team in the second phase of the competition and was responsible for refining, exploring, and verifying the new system design. Besides, I worked the design/technical documents and presentation slides and particated in the final defense, with Junyang Lin and Ruixuan Luo.&lt;/p></description></item></channel></rss>

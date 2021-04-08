@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yi Zhang | Xuancheng Ren</title><link>https://jklj077.github.io/author/yi-zhang/</link><atom:link href="https://jklj077.github.io/author/yi-zhang/index.xml" rel="self" type="application/rss+xml"/><description>Yi Zhang</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Xuancheng Ren</copyright><lastBuildDate>Sun, 06 Jun 2021 00:00:00 +0000</lastBuildDate><image><url>https://jklj077.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>Yi Zhang</title><link>https://jklj077.github.io/author/yi-zhang/</link></image><item><title>A Global Past-Future Early Exit Method for Accelerating Inference of Pre-trained Language Models</title><link>https://jklj077.github.io/publication/2021naacl-global/</link><pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate><guid>https://jklj077.github.io/publication/2021naacl-global/</guid><description/></item><item><title>PKUSeg</title><link>https://jklj077.github.io/project/pkuseg/</link><pubDate>Thu, 27 Jun 2019 22:42:33 +0800</pubDate><guid>https://jklj077.github.io/project/pkuseg/</guid><description>&lt;p>PKUSeg-python is a multi-domain Chinese word segmentation toolkit in Python. There is also a C# version of this toolkit, in which I am not involved.&lt;/p>
+&lt;h2 id="highlights">Highlights&lt;/h2>
+&lt;p>The toolkit has the following features:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Supporting multi-domain Chinese word segmentation. PKUSeg-python supports multi-domain segmentation, including domains like news, web, medicine, and tourism. Users are free to choose different pre-trained models according to the domain features of the text to be segmented. If not sure the domain of the text, users are recommended to use the default model trained on mixed-domain data.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Higher word segmentation results. Compared with existing word segmentation toolkits, pkuseg-python can achieve higher F1 scores on the same dataset.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Supporting model training. PKUSeg-python also supports users to train a new segmentation model with their own data.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Supporting POS tagging. We also provide users POS tagging interfaces for further lexical analysis.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="work">Work&lt;/h2>
+&lt;p>I have mainly worked on improving the efficiency and the maintainability of the toolkit:&lt;/p>
+&lt;ul>
+&lt;li>Identify the bottleneck of speed&lt;/li>
+&lt;li>Rework the core compuation parts with Cython, bringing ~9x speedup&lt;/li>
+&lt;li>Refactor the codes and address backward compatibility&lt;/li>
+&lt;/ul></description></item><item><title>PKUSEG: A Toolkit for Multi-Domain Chinese Word Segmentation</title><link>https://jklj077.github.io/publication/2019techreport-pkuseg/</link><pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate><guid>https://jklj077.github.io/publication/2019techreport-pkuseg/</guid><description/></item><item><title>Towards Easier and Faster Sequence Labeling for Natural Language Processing: A Search-Based Probabilistic Online Learning Framework (SAPO)</title><link>https://jklj077.github.io/publication/2019isci-easier/</link><pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate><guid>https://jklj077.github.io/publication/2019isci-easier/</guid><description/></item><item><title>Training Simplification and Model Simplification for Deep Learning: A Minimal Effort Back Propagation Method</title><link>https://jklj077.github.io/publication/2018tkde-training/</link><pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate><guid>https://jklj077.github.io/publication/2018tkde-training/</guid><description/></item><item><title>A Skeleton-Based Model for Promoting Coherence Among Sentences in Narrative Story Generation</title><link>https://jklj077.github.io/publication/2018emnlp-skeleton/</link><pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate><guid>https://jklj077.github.io/publication/2018emnlp-skeleton/</guid><description/></item><item><title>Does Higher Order LSTM Have Better Accuracy for Segmenting and Labeling Sequence Data?</title><link>https://jklj077.github.io/publication/2018coling-higher/</link><pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate><guid>https://jklj077.github.io/publication/2018coling-higher/</guid><description/></item></channel></rss>
